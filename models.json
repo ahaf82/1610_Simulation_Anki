@@ -1,1 +1,57 @@
-{}
+{
+    "1661686816821": {
+        "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+        "did": null,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Vorderseite",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "name": "Rückseite",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1661686816821,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 0,
+        "name": "Einfach",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tmpls": [
+            {
+                "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Karte 1",
+                "ord": 0,
+                "qfmt": "{{Vorderseite}}"
+            }
+        ],
+        "type": 0,
+        "usn": 0
+    }
+}
